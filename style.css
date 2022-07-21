@@ -1,0 +1,86 @@
+* {
+    font-family: 'outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Barra menu principal */
+  #header{
+    background: rgba(0, 0, 0, 0.719);
+    padding: 10px 0;
+    position: sticky;
+  }
+  
+  #header__content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  /* Bloco do começo dentro da barra menu - Block in the start inside of the menu bar  */
+  #header__start {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Logo principal - Logo main */
+  #header__start__logo {
+    height: 30px;
+    width: 30px;
+  }
+  
+  /* Bloco final da barra menu - end block of the menu bar */
+  #header__end{
+    display: flex;
+    gap: 40px;
+  }
+  
+  .header__title {
+    font-family: 'spartan', sans-serif;
+    font-size: 20px;
+    padding-top: 4px;
+  }
+  
+  /* Nome principal do site "autllyx" - main name of the site "autllyx" */
+  .header__title--name{
+    margin-left: 15px;
+    color: #5ce1e6;
+  }
+  
+  /* Nome principal do site "corporation" - main name of the site "corporation" */
+  .header__title--corp{
+    margin-left: 10px;
+    color: #bdbdbd;
+  }
+  
+  /* Filhos do bloco final da barra menu - childs of the end block of the menu bar */
+  #header__end a{
+    text-decoration: none;
+    color: #5ce1e6;
+  }
+  
+  /* Logo da loja - Logo store */
+  #header__end__logoStore {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  /* log in */
+  #header__end__logIn{
+    font-size: large;
+    border: solid 2px #a6a6a6;
+    text-align: center;
+    width: 65px;
+  }
+  
+  /* Logo menu */
+  #header__end__logoMenu {
+    width: 30px;
+    height: 30px;
+  }
+  
+  

@@ -1,0 +1,19 @@
+
+.Titulo{
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    position: center;
+}
+img.logo{
+    margin-right:auto ;
+    margin-left: auto;
+    display: block;
+    margin-top: -30px;
+}
+
+
+

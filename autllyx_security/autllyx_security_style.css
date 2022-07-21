@@ -1,0 +1,39 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Spartan', sans-serif;
+    width: 510px;
+}
+img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+table{
+    font-family: 'Montagu Slab', serif;
+    font-size: xx-large;
+    text-align: center;
+    border-collapse: collapse;
+}
+ tbody{
+    
+}
+th{
+    border: 3px solid red;
+    box-sizing: content-box;
+}
+caption{
+    border: 20px ridge red;
+    background-color: rgb(199, 199, 199);
+    box-sizing: content-box;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+td{
+    border: 3px solid red;
+}
